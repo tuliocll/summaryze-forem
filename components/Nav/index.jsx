@@ -15,12 +15,12 @@ function Navbar() {
     <nav className={`${style.navbar} ${showMenu ? style.responsive : ""}`}>
       <Logo nav />
       <a
-        href="https://github.com/tuliocll/summaryze-dev#about-it"
+        href="https://github.com/tuliocll/summaryze-forem#about-it"
         target="_blank"
       >
         About
       </a>
-      <a href="https://github.com/tuliocll/summaryze-dev" target="_blank">
+      <a href="https://github.com/tuliocll/summaryze-forem" target="_blank">
         Github
       </a>
       <a href="#how-to-use-it">How to use</a>
