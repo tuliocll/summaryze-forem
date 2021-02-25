@@ -70,7 +70,7 @@ export default function Home() {
   return (
     <div style={{ height: "100%" }}>
       <Head>
-        <title>Summaryze DEV</title>
+        <title>Summaryze Forem 🌱</title>
         <link rel="icon" href="/favicon.ico" />
         <script
           async

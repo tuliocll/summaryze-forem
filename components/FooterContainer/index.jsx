@@ -3,7 +3,7 @@ import style from "./FooterCotnainer.module.css";
 function FooterContainer() {
   return (
     <footer className={style.container}>
-      Summaryze DEV - {new Date().getFullYear()}
+      Summaryze Forem 🌱 - {new Date().getFullYear()}
     </footer>
   );
 }
