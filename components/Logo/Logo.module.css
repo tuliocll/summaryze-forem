@@ -1,0 +1,11 @@
+.title {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.nav {
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 300px;
+  margin: 7px 0px;
+}

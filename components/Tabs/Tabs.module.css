@@ -1,0 +1,43 @@
+.icon_base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.blue {
+  background-color: #b0d2f7;
+  color: #058aff;
+}
+
+.purple {
+  background-color: #efdcff;
+  color: #ad55f7;
+}
+
+.pink {
+  background-color: #ffedf0;
+  color: #ff5ca5;
+}
+
+.markdown_preview {
+  padding: 20px;
+  background-color: rgb(40, 42, 54);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.markdown_preview > ul {
+  margin-left: 20px;
+}
+
+@media (max-width: 576px) {
+  .markdown_code {
+    width: 90vmin;
+  }
+}

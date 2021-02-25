@@ -1,0 +1,17 @@
+.container {
+  padding: 50px;
+}
+
+.container > h1 {
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.container > ul {
+  margin-top: 20px;
+}
+
+.container li {
+  font-size: 19px;
+  margin-bottom: 10px;
+}

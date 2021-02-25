@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  border: 20px solid rgba(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  background-color: #f5f5f5;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+a {
+  color: #37606c;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #37606c;
+  background-image: url("/images/fundo.png");
+  background-repeat: repeat;
+  min-height: 65%;
+}
+
+.react-tabs {
+  margin-top: 20px;
+}
+
+.react-tabs__tab {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f3f3f3;
+  width: 200px;
+  padding: 20px 0px !important;
+  border-radius: 0px !important;
+  border: 1px solid;
+  border-color: #cfcfcf;
+  transition: all ease-in-out 0.3s;
+}
+
+.react-tabs__tab-panel--selected {
+  background-color: #fff;
+  height: 100%;
+  margin-top: -10px;
+  padding: 10px 20px;
+  width: 600px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .react-tabs__tab {
+    width: 100%;
+  }
+
+  .react-tabs__tab-panel--selected {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.copy_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  color: #058aff;
+  transition: all 0.4s ease-in-out;
+  height: 30px;
+  width: 30px;
+}
+
+.copy_button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #058aff;
+  border-radius: 50px;
+}
