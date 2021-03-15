@@ -72,6 +72,7 @@ export default function Home() {
       <Head>
         <title>Summaryze Forem 🌱</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="monetization" content="$ilp.uphold.com/F668kHq4797i" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-7CEV0QT3Y5"
