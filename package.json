@@ -12,14 +12,14 @@
     "next": "10.2.0",
     "node-fetch": "^2.6.1",
     "react": "17.0.1",
-    "react-content-loader": "^6.0.1",
+    "react-content-loader": "^6.0.3",
     "react-dom": "17.0.1",
-    "react-icons": "^4.1.0",
+    "react-icons": "^4.2.0",
     "react-markdown": "^5.0.3",
     "react-syntax-highlighter": "^15.4.3",
-    "react-tabs": "^3.1.2",
+    "react-tabs": "^3.2.2",
     "react-toastify": "^7.0.3",
-    "react-tooltip": "^4.2.13",
+    "react-tooltip": "^4.2.19",
     "request": "^2.88.2"
   }
 }
