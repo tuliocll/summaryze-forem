@@ -15,7 +15,7 @@ function scrap(body) {
   const titleList = [];
   const linksList = [];
 
-  const anchors = $(".anchor");
+  const anchors = $("a[name]");
 
   if (anchors.length === 0) {
     return false;
