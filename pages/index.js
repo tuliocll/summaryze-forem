@@ -75,16 +75,16 @@ export default function Home() {
         <meta name="monetization" content="$ilp.uphold.com/F668kHq4797i" />
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-7CEV0QT3Y5"
+          src="https://www.googletagmanager.com/gtag/js?id=G-3EKJMFLEJX"
         ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-7CEV0QT3Y5');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-3EKJMFLEJX');
     `,
           }}
         ></script>
